@@ -1,0 +1,82 @@
+.strengths {
+  background: rgba(13, 17, 23, 0.97);
+  border-top: 1px solid rgba(59, 130, 246, 0.06);
+  border-bottom: 1px solid rgba(59, 130, 246, 0.06);
+}
+
+.strengths-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 18px;
+}
+
+.strength-card {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 20px 24px;
+  text-align: center;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.strength-card::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent2), var(--accent));
+  transform: scaleX(0);
+  transition: transform var(--transition);
+  transform-origin: left;
+}
+
+.strength-card:hover {
+  border-color: var(--border2);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 36px rgba(59, 130, 246, 0.12);
+  background: var(--bg4);
+}
+
+.strength-card:hover::before {
+  transform: scaleX(1);
+}
+
+.strength-icon {
+  font-size: 1.8rem;
+  color: var(--accent);
+  margin-bottom: 14px;
+  transition: transform var(--transition);
+}
+
+.strength-card:hover .strength-icon {
+  transform: scale(1.15);
+}
+
+.strength-card h4 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.strength-card p {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .strengths-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .strengths-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 480px) {
+  .strengths-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+}

@@ -1,0 +1,147 @@
+:root {
+  --accent: #3b82f6;
+  --accent2: #1d4ed8;
+  --accent3: #60a5fa;
+  --bg: #0a0c10;
+  --bg2: #0d1117;
+  --bg3: #161b22;
+  --bg4: #1c2333;
+  --text: #c9d1d9;
+  --text-light: #6e7681;
+  --white: #f0f6fc;
+  --border: rgba(59, 130, 246, 0.15);
+  --border2: rgba(59, 130, 246, 0.32);
+  --radius: 14px;
+  --transition: 0.3s ease;
+  --glow: 0 0 28px rgba(59, 130, 246, 0.22);
+  --glow2: 0 0 56px rgba(59, 130, 246, 0.12);
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  overflow-x: hidden;
+  /* subtle dot grid */
+  background-image: radial-gradient(rgba(59, 130, 246, 0.07) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 3px;
+}
+
+section {
+  padding: 90px 0;
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.section-title h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--white);
+  letter-spacing: 1px;
+}
+
+.section-title h2 span {
+  color: var(--accent);
+}
+
+.title-line {
+  width: 60px;
+  height: 3px;
+  background: var(--accent);
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.section-sub {
+  text-align: center;
+  color: var(--text-light);
+  margin-bottom: 50px;
+  font-size: 0.95rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  border: 2px solid transparent;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent2), var(--accent));
+  color: var(--white);
+  border-color: transparent;
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3);
+}
+
+.btn-primary:hover {
+  background: transparent;
+  color: var(--accent);
+  border-color: var(--accent);
+  box-shadow: var(--glow);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.btn-outline:hover {
+  background: linear-gradient(135deg, var(--accent2), var(--accent));
+  color: var(--white);
+  border-color: transparent;
+  box-shadow: var(--glow);
+}
