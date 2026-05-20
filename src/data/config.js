@@ -39,13 +39,13 @@ const config = {
       role: "Power BI Intern",
       company: "Microsoft Elevate X AICTE",
       duration: "4 Weeks | Feb 2026",
-      desc: "Completed a 4-week virtual internship on Microsoft Power BI for business insights. Built interactive dashboards, worked with real datasets and learned to present data-driven stories to stakeholders.",
+      desc: "Completed a 4-week virtual internship on Microsoft Power BI for Business Applications. Learned Power BI for business intelligence and data visualization with real-world datasets.",
     },
     {
       role: "Data Analyst Intern",
       company: "Jinarth Info Tech",
-      duration: "4 Weeks | May",
-      desc: "Completed a 4-week on-site internship on Data Analysis using Python and Microsoft Excel. Worked with real datasets, performed data cleaning and analysis, and built reports to support business decisions.",
+      duration: "4 Weeks | May 2026",
+      desc: "Completed a 4-week on-site internship on Data Analysis. Developed analytical and business intelligence skills through hands-on projects involving data cleaning, KPI analysis, dashboard creation and reporting.",
     },
   ],
 
@@ -95,6 +95,14 @@ const config = {
         "/projects/superstore-sales-powerbi-dashboard-SS1.png",
         "/projects/superstore-sales-powerbi-dashboard-SS2.png",
       ],
+      live: "#",
+      code: "https://github.com/AniketVaghela",
+    },
+    {
+      title: "AI and Data Job Market 2025-26",
+      desc: "An end-to-end analytics project studying AI and data job market trends for 2025–26. Involved data cleaning, transformation, visualization and KPI development to surface actionable insights.",
+      tags: ["NumPy", "Pandas", "Matplotlib", "Power BI", "Excel"],
+      images: [],
       live: "#",
       code: "https://github.com/AniketVaghela",
     },
@@ -200,6 +208,10 @@ const config = {
 2. **Super Store Sales Dashboard**  
    Retail sales data transformed into actionable business insights with interactive analytics and forecasting.  
    Tags: Power BI, DAX, Sales Analytics, Forecasting
+
+3. **AI and Data Job Market 2025-26**  
+   End-to-end analytics project studying AI and data job market trends for 2025–26. Involved data cleaning, transformation, visualization and KPI development.  
+   Tags: NumPy, Pandas, Matplotlib, Power BI, Excel
 
 ---
 
