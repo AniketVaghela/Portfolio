@@ -74,15 +74,14 @@ const config = {
 
   projects: [
     {
-      title: "SatConnect Intelligence Platform",
-      desc: "A multi-page Power BI dashboard analyzing global satellite internet coverage. Covers provider comparison, forecasting up to 2030, India-specific launch data and a full data report — all in one interactive report.",
-      tags: ["Power BI", "DAX", "Data Modeling", "Forecasting"],
+      title: "AI and Data Job Market 2025-26",
+      desc: "An end-to-end analytics project studying AI and data job market trends for 2025–26. Involved data cleaning, transformation, visualization and KPI development to surface actionable insights.",
+      tags: ["Pandas", "Matplotlib", "Power BI", "DAX", "Excel"],
       images: [
-        "/projects/project1.png",
-        "/projects/project2.png",
-        "/projects/project3.png",
-        "/projects/project4.png",
-        "/projects/project5.png",
+        "/ai-job-market-ss1.png",
+        "/ai-job-market-ss2.png",
+        "/ai-job-market-ss3.png",
+        "/ai-job-market-ss4.png",
       ],
       live: "#",
       code: "https://github.com/AniketVaghela",
@@ -94,19 +93,6 @@ const config = {
       images: [
         "/projects/superstore-sales-powerbi-dashboard-SS1.png",
         "/projects/superstore-sales-powerbi-dashboard-SS2.png",
-      ],
-      live: "#",
-      code: "https://github.com/AniketVaghela",
-    },
-    {
-      title: "AI and Data Job Market 2025-26",
-      desc: "An end-to-end analytics project studying AI and data job market trends for 2025–26. Involved data cleaning, transformation, visualization and KPI development to surface actionable insights.",
-      tags: ["Pandas", "Matplotlib", "Power BI", "DAX", "Excel"],
-      images: [
-        "/ai-job-market-ss1.png",
-        "/ai-job-market-ss2.png",
-        "/ai-job-market-ss3.png",
-        "/ai-job-market-ss4.png",
       ],
       live: "#",
       code: "https://github.com/AniketVaghela",
@@ -205,18 +191,13 @@ const config = {
 
 ## Projects
 
-1. **SatConnect Intelligence Platform**  
-   A multi-page **Power BI** dashboard analyzing global satellite internet coverage.  
-   Features: provider comparison, forecasting up to 2030, India-specific launch data.  
-   Tags: Power BI, DAX, Data Modeling, Forecasting
+1. **AI and Data Job Market 2025-26**  
+   End-to-end analytics project studying AI and data job market trends for 2025–26. Involved data cleaning, transformation, visualization and KPI development.  
+   Tags: Pandas, Matplotlib, Power BI, DAX, Excel
 
 2. **Super Store Sales Dashboard**  
    Retail sales data transformed into actionable business insights with interactive analytics and forecasting.  
    Tags: Power BI, DAX, Sales Analytics, Forecasting
-
-3. **AI and Data Job Market 2025-26**  
-   End-to-end analytics project studying AI and data job market trends for 2025–26. Involved data cleaning, transformation, visualization and KPI development.  
-   Tags: NumPy, Pandas, Matplotlib, Power BI, Excel
 
 ---
 
