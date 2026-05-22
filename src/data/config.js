@@ -102,7 +102,12 @@ const config = {
       title: "AI and Data Job Market 2025-26",
       desc: "An end-to-end analytics project studying AI and data job market trends for 2025–26. Involved data cleaning, transformation, visualization and KPI development to surface actionable insights.",
       tags: ["NumPy", "Pandas", "Matplotlib", "Power BI", "Excel"],
-      images: [],
+      images: [
+        "/ai-job-market-ss1.png",
+        "/ai-job-market-ss2.png",
+        "/ai-job-market-ss3.png",
+        "/ai-job-market-ss4.png",
+      ],
       live: "#",
       code: "https://github.com/AniketVaghela",
     },
